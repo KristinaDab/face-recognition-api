@@ -3,6 +3,7 @@
 
 const handleRegister = (req, res, db, bcrypt) => {
     const { email, name, password } = req.body;
+    //Checking if the information is added by the user
     if(!email || !name || !password) {
       return res.status(400).json('incorrect form submision');
     }
