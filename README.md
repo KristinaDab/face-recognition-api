@@ -1,2 +1,2 @@
 # face-recognition-api
- Server necesarry for face-recognition-app
+ This is a server that is necesarry for face-recognition-app
